@@ -1,0 +1,62 @@
+@import url('http://fonts.googleapis.com/css?family=Arvo:700|Open+Sans:400italic,400');
+@import url('http://fast.fonts.com/cssapi/95b765fd-fae4-4f1b-8155-d8244914a5c6.css');
+
+body {
+background-image: url("../images/metaverse.png");
+background-repeat: no-repeat;
+background-position: fixed;
+font-family: "Open Sans","Frutiger","arial","sans-serif";
+/* setให้ไม่มีช่องว่าง */
+margin: 0;
+padding: 0;
+};
+
+
+/* h1, h2 {
+font-family: "Adelle W01 Bold","Arvo","Georgia","serif";
+color: #dd3b2a;
+} */
+ 
+h1, h2 {
+font-family: "Adelle W01 Bold","Arvo","Georgia","serif";
+color: #dd3b2a;
+}
+
+.header {
+    height: 492px;
+    background-color: white;
+    opacity: 0;
+    
+}
+
+.main {
+    opacity: 0.7;
+    border-top: 5px solid #dd3b2a;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.supporting {
+    background-color: #edf6ff;
+    border-top: 5px solid #cce4fb;
+    padding-bottom: auto;
+}
+
+.summary {
+    background-color: white;
+    opacity: 0.7;
+    border-top: 5px solid #cce4fb;
+    padding-bottom: auto;
+}
+
+
+:is(.header, .main, .supporting, .summary) .content {
+    width: 80%;
+}
+.content{
+    width: 100%;
+    margin-left: 10%;
+}
