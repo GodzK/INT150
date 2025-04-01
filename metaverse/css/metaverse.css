@@ -1,0 +1,146 @@
+@import url('http://fonts.googleapis.com/css?family=Arvo:700|Open+Sans:400italic,400');
+@import url('http://fast.fonts.com/cssapi/95b765fd-fae4-4f1b-8155-d8244914a5c6.css');
+
+body {
+    background-image: url("../images/metaverse.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Open Sans', "Frutiger", "Arial", "sans-serif";
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: "Adelle W01 Bold", "Arvo", "Georgia", "serif";
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #dd3b2a;
+}
+
+a {
+    color: #dd3b2a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header, .main, .supporting, .summary {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.header .content, .main .content, .supporting .content, .summary .content {
+    width: 80%;
+}
+
+/* Header section */
+.header {
+    height: 492px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header h1 {
+    width: 100%;
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.header p {
+    width: 45%;
+    align-self: flex-end;
+    font-weight: bold;
+    color: white;
+    font-size: 1.3em;
+    margin-right: 20px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* Main section */
+.main {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-top: 5px solid #dd3b2a;
+}
+
+.main .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.main .content .definition,
+.main .content .howitwork {
+    width: 45%;
+    padding: 20px;
+}
+
+/* Supporting section */
+.supporting {
+    background-color: #edf6ff;
+    border-top: 5px solid #cce4fb;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.supporting .content {
+    display: flex;
+    padding: 20px 0;
+    flex-direction: column;
+}
+
+.supporting .content .whoplayer {
+    width: 45%;
+    padding: 20px;
+    background-image: url("../images/conference.png");
+    background-repeat: no-repeat;
+    background-position: right 50%;
+    background-size: 30% auto;
+    padding-right: 50%;
+    align-self: flex-start;
+}
+
+.supporting .content .willhappen {
+    width: 45%;
+    padding: 20px;
+    align-self: flex-end;
+    background-image: url("../images/avatar.png");
+    background-repeat: no-repeat;
+    background-position: left 50%;
+    background-size: 30% auto;
+    padding-left: 50%;
+}
+
+
+.summary {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-top: 5px solid #cce4fb;
+}
+
+.summary .content .whydothis {
+    padding: 20px;
+}
+
+.summary .content .whydothis h2 {
+    text-align: center;
+}
+
+.summary .content .whydothis p {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.summary .content .whydothis p:first-of-type {
+    margin-right: 5%;
+}
